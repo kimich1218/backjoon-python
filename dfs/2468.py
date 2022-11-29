@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(10000)
+sys.setrecursionlimit(1000000)
 
 n = int(sys.stdin.readline())
 L = [list(map(int, sys.stdin.readline().split())) for _ in range(n)]
